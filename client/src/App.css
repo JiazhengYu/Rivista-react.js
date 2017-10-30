@@ -1,0 +1,52 @@
+.App {
+  margin-top: 15px;
+}
+
+.App .navbar-brand {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.navbar {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.no-shadow {
+  -webkit-box-shadow: 0 0 0 0 #999;
+  -moz-box-shadow: 0 0 0 0 #999;
+  box-shadow: 0 0 0 0 #999;
+}
+
+.dark-shadow {
+  box-shadow: 0px 4px 5px 1px #1e2124;
+}
+
+.btn {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn-link {
+  margin-right: 0px;
+}
+
+.logout-btn-link {
+  background-color: transparent;
+  color:red;
+  margin-right: 0px;
+}
+
+.right {
+  margin-right:0px;
+  margin-left: 10px;
+}
+
+.button-container {
+  position: absolute;
+  right: 3%
+}

@@ -1,0 +1,192 @@
+#search {
+    position: fixed;
+    width: 400px;
+    top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}
+
+#search input {
+    width: 100%;
+    padding-left: 30px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 0px;
+    padding-left: 7px;
+    padding-top: 10px;
+}
+
+.return {
+    position: fixed;
+    left: 2%;
+    top: 100px;
+    cursor: pointer;
+}
+
+.return p {
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.return span {
+    position: absolute;
+    top: 0;
+}
+
+.entry-card {
+    flex-direction: row;
+    padding: 0;
+}
+
+.entry-card:hover {
+    box-shadow: 0px 0px 0px 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.options {
+    position: absolute;
+    top: 5px;
+    float: left;
+    width:8%;
+    padding: 0.5em;
+}
+
+.options button {
+    margin-left: 10px;
+    padding: 0;
+}
+
+.options button:disabled {
+    cursor: not-allowed;
+}
+
+.entry-details {
+    margin-left:8%;
+    width: 100%;
+    height: 100px;
+    padding: 1em;
+}
+
+.entry-title {
+    display: flex;
+}
+
+#optionsNew {
+    align-self: left ;
+}
+
+#testFun {
+    color: black;
+    background-color: white;
+    text-align: left;
+}
+
+.filter .toggle-buttons {
+    margin-left: 0;
+}
+
+.toggle-buttons {
+    margin-left: 2em;
+    display: flex;
+}
+
+.toggle {
+    display: flex;
+    flex: 1;
+}
+
+.toggle p {
+    margin-left: 5px;
+}
+
+#testFun:hover {
+    background-color: rgb(92, 220, 255);
+    color: #444444;
+    border-color: rgb(92, 220, 255);
+    -webkit-box-shadow: 6px 8px 6px -6px #999;
+    -moz-box-shadow: 6px 8px 6px -6px #999;
+    box-shadow: 3px 4px 3px -3px #999;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    padding: 7px 0 0 7px;
+}
+
+.title {
+    padding-bottom: 25px;
+}
+
+.hidden {
+    color: #999;
+}
+
+.deleted {
+    color: red;
+}
+
+.backFont:hover {
+    text-decoration: underline;
+}
+
+.filter {
+    position:fixed;
+    width: 500px;
+    top: 74px;
+    left:0;
+    right:0;
+    margin-right: auto;
+    margin-left: auto;
+    z-index:1050;
+    background-color:white;
+    padding:30px;
+    -webkit-box-shadow: 6px 8px 6px -6px #999;
+    -moz-box-shadow: 6px 8px 6px -6px #999;
+    box-shadow: 6px 8px 6px -6px #999;
+}
+
+.filter-dates {
+    display: flex;
+}
+
+.filter-dates p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.filter label {
+    margin-right: 20px;
+}
+
+.filter span {
+    position: absolute;
+    top: 0;
+}
+
+.empty {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.dark-input {
+    background-color: #484B51;
+    color: #ffffff;
+    border: 0;
+}
+
+.dark-input:focus {
+    background-color:#484B51;
+    color: #ffffff;
+}
+
+.close {
+    text-shadow: 0 0 0
+}

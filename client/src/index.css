@@ -1,0 +1,15 @@
+body {
+  margin-top: 6em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  background-color: #f1f1f1;
+}
+
+select.form-control,
+textarea.form-control,
+input.form-control {
+  font-size: 16px;
+}
+input[type=file] {
+  width: 100%;
+}
