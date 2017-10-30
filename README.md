@@ -1,7 +1,10 @@
-# SDP-API
+# Rivista-react.js
+
 Welcome to Rivista's Journal Applicaiton
 
-This web application project completed by the team I was involved in. Due to the project is as the assignment of a subject of UTS
+This is a web application with react.js
+
+This project was completed by the team I was involved in. Due to the project is as the assignment of a subject of UTS
 the original github repository created by project leader is private, so I moved the repository to this one as public. 
 As the developer in the team, I was responsible for the whole front end development.
 
