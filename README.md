@@ -1,7 +1,5 @@
 # Rivista-react.js
 
-Welcome to Rivista's Journal Applicaiton
-
 This is a web application with react.js
 
 This project was completed by the team I was involved in. Due to the project is as the assignment of a subject of UTS
